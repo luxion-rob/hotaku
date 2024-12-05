@@ -1,0 +1,42 @@
+{
+  "name": "cloud_sign_contract_label_feature",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "concurrently \"vite\" \"npm run css-watch\"",
+    "build": "npm run css && vue-tsc -b && vite build",
+    "css": "npx tailwindcss -i ./src/style.css -o ./src/output.css",
+    "css-watch": "npx tailwindcss -i ./src/style.css -o ./src/output.css --watch",
+    "test": "vitest run",
+    "coverage": "vitest run --coverage",
+    "preview": "vite preview",
+    "format": "prettier --write 'src/**/*.{ts,js,vue}'",
+    "lint": "eslint --fix 'src/**/*.{ts,js,vue}'",
+    "fix": "npm run format && npm run lint"
+  },
+  "dependencies": {
+    "axios": "^1.7.8",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-vue": "^9.31.0",
+    "typescript-eslint": "^8.16.0",
+    "vue": "^3.5.12",
+    "vue-pick-colors": "^1.7.8",
+    "vue-router": "^4.4.5"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.15.0",
+    "@types/node": "^22.9.0",
+    "@vitejs/plugin-vue": "^5.1.4",
+    "@vitest/coverage-v8": "^2.1.5",
+    "concurrently": "^9.1.0",
+    "eslint": "^9.15.0",
+    "jsdom": "^25.0.1",
+    "prettier": "^3.3.3",
+    "tailwindcss": "^3.4.15",
+    "typescript": "~5.6.2",
+    "vite": "^5.4.10",
+    "vitest": "^2.1.6",
+    "vue-tsc": "^2.1.8"
+  }
+}
