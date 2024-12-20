@@ -1,25 +1,24 @@
-## 対応内容・対応背景・妥協点
+# Pull Request Template
 
-## やったこと
-このPR内でやったことを書く
+## Title
+[Provide a succinct and descriptive title for the pull request, e.g., "Improve caching mechanism for API calls"]
 
-## やってないこと
-このPR内でやっていないことを書く
+## Description
+[Provide a detailed explanation of the changes you have made. Include the reasons behind these changes and any relevant context. Link any related issues.]
 
-## UI before / after
-UIや振る舞いが変わる場合はbefore / afterのスクショや動画を共有する
+## Testing
+[Detail the testing you have performed to ensure that these changes function as intended. Include information about any added tests.]
 
-## テスト
-テスト項目、テスト方法を書く
+## Impact
+[Discuss the impact of your changes on the project. This might include effects on performance, new dependencies, or changes in behaviour.]
 
-## レビュー観点
-あくまで目安です。
+## Additional Information
+[Any additional information that reviewers should be aware of.]
 
-- 想定通りに動作するか？
-- より良いJS/TS/CSS/Reactの書き方はないか？
-- より良い設計方法はないか？
-- 他の部分と書き方・命名・ディレクトリ構成等が異なっていないか？
-- 関数、コンポーネントの粒度は適切か？
-- etc...
-
-## 補足
+## Checklist
+- [ ] My code adheres to the coding and style guidelines of the project.
+- [ ] I have performed a self-review of my own code.
+- [ ] I have commented my code, particularly in hard-to-understand areas.
+- [ ] I have made corresponding changes to the documentation.
+- [ ] My changes generate no new warnings 
+- [ ] I gave this PR a label
