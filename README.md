@@ -16,7 +16,7 @@ Cuz i like it
 git clone https://github.com/LuxionRob/manga-filter.git
 
 # Install dependencies
-cd manga-filter
+cd hotaku
 npm i
 
 # Run
