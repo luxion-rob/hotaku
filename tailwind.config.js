@@ -27,5 +27,5 @@ export default {
       },
     },
   },
-  plugins: [],
+  plugins: [require('tailwindcss-primeui')], // eslint-disable-line
 }

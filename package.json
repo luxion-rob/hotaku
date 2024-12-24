@@ -16,10 +16,13 @@
     "fix": "npm run format && npm run lint"
   },
   "dependencies": {
+    "@primevue/themes": "^4.2.5",
     "antd": "^5.22.5",
     "axios": "^1.7.8",
     "eslint-config-prettier": "^9.1.0",
     "eslint-plugin-vue": "^9.31.0",
+    "primevue": "^4.2.5",
+    "tailwindcss-primeui": "^0.3.4",
     "typescript-eslint": "^8.16.0",
     "vue": "^3.5.12",
     "vue-i18n": "^9.14.2",
