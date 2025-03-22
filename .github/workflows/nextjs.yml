@@ -26,8 +26,8 @@ concurrency:
     cancel-in-progress: false
 
 jobs:
-    # Test job
-    test:
+    # Lint job
+    lint:
         runs-on: ubuntu-latest
         steps:
             - name: Checkout code
