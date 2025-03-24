@@ -3,9 +3,11 @@
 	"version": "0.1.0",
 	"private": true,
 	"scripts": {
-		"dev": "next dev --turbopack",
+		"up": "docker start hotaku",
+		"down": "docker stop hotaku",
 		"build": "next build",
-		"start": "next start",
+		"build:docker": "docker build -t nextjs-docker .",
+		"start": "docker run --name hotaku -p 3000:3000 -it -d nextjs-docker",
 		"lint": "next lint",
 		"create:component": "npx shadcn@latest add"
 	},
