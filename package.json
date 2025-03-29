@@ -4,6 +4,7 @@
   "type": "module",
   "scripts": {
     "build": "NITRO_PRESET=aws_amplify nuxt build",
+    "build:vercel": "nuxt build",
     "dev": "nuxt dev",
     "generate": "nuxt generate",
     "preview": "nuxt preview",
