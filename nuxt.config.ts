@@ -10,5 +10,10 @@ export default defineNuxtConfig({
     plugins: [
       tailwindcss(),
     ],
+  },
+  nitro: {
+    awsAmplify: {
+       catchAllStaticFallback: true,
+    }
   }
 })
