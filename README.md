@@ -8,9 +8,9 @@ Cuz i like it
 
 ## Detail
 
--   Framework: React, Next
--   Libs: axios, shadcn
--   API: [Hotaku_ASPNET](https://github.com/ngN-tieN/Hotaku_ASPNET)
+- Framework: React, Next
+- Libs: axios, shadcn
+- API: [Hotaku_ASPNET](https://github.com/ngN-tieN/Hotaku_ASPNET)
 
 ## Build Notes
 
