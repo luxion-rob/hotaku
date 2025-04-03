@@ -1,2 +1,10 @@
 @import "tailwindcss";
 @import "@nuxt/ui";
+
+@theme {
+  --drawer-width: 256px;
+  --spacing-navbar: 1440px;
+}
+
+@layer utilities {
+}
